@@ -6,9 +6,9 @@ The task: install Cursor IDE, add the Claude Code and Codex extensions, create a
 
 # Tools Installed
 
-**Cursor IDE** = Version 3.5.38 — Windows 11
-**Claude Code extension (by Anthropic)** = Version 2.1.153 — Signed in via GitHub
-**Codex extension (by OpenAI)** = Version 26.519.32039 — Signed in with email
+**Cursor IDE** = Version 3.5.38, Windows 11
+**Claude Code extension (by Anthropic)** = Version 2.1.153, Signed in via mail
+**Codex extension (by OpenAI)** = Version 26.519.32039, Signed in with email
 **GitHub account** = gusaindevashish41
 
 ---
@@ -28,18 +28,18 @@ The task: install Cursor IDE, add the Claude Code and Codex extensions, create a
 
 ## Issues Encountered & How I Solved Them
 
-### Issue 1: Codex Extension — No Sign-In pop -up Appeared
+### Issue 1: Codex Extension No Sign-In pop -up Appeared
 
-After installing the Codex extension, I expected a login popup — the description said 
+After installing the Codex extension, I expected a login popup the description said 
 it would appear automatically. Nothing showed up. I spent time checking settings, menus, 
 and the extensions panel looking for a sign-in button. Searched YouTube and Google but 
 couldn't find a clear answer from documentation alone.
 
-Eventually a YouTube tutorial showed the fix: you don't wait for a popup — you have to 
+Eventually a YouTube tutorial showed the fix: you don't wait for a popup you have to 
 manually open the extension yourself. Once I did that, the login option appeared. 
 Signed in with my email and it worked.
 
-### Issue 2: Git Not Installed — Repository Wouldn't Clone
+### Issue 2: Git Not Installed Repository Wouldn't Clone
 
 When I tried to clone the repo in Cursor using the Command Palette 
 (Ctrl+Shift+P → Git: Clone), nothing happened. Tried multiple times, same result.
@@ -47,7 +47,7 @@ When I tried to clone the repo in Cursor using the Command Palette
 After asking both ChatGPT and Claude to debug it, I found the answer: Git wasn't 
 installed on my machine, and Cursor requires Git to be installed separately for any 
 version control to work. Downloaded Git from git-scm.com, installed it, restarted 
-Cursor — clone worked immediately.
+Cursor clone worked immediately.
 
 ---
 
@@ -56,8 +56,8 @@ Cursor — clone worked immediately.
 Two things stood out from this process.
 
 First, the irony of using AI tools to set up AI tools. When the Git clone wasn't 
-working, my first instinct was to ask ChatGPT and Claude to debug it. That loop — 
-AI helping me install AI — didn't feel like cheating; it felt like the correct move. 
+working, my first instinct was to ask ChatGPT and Claude to debug it. That loop  
+AI helping me install AI  didn't feel like cheating; it felt like the correct move. 
 I think that's how AI-assisted work actually functions: you don't stop and figure 
 things out alone when a tool is right there.
 
@@ -67,5 +67,5 @@ that literally and waited, I'd still be waiting. Searching, watching a YouTube v
 and testing the fix myself was faster than trusting the documentation was complete.
 
 Having Claude Code and Codex both running inside Cursor is a different experience than 
-switching between browser tabs — the context stays in one place. I'll know in a few 
+switching between browser tabs the context stays in one place. I'll know in a few 
 sessions whether that actually speeds things up or just adds noise.
