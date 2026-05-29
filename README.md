@@ -1,4 +1,4 @@
-# Step 1: Setting Up Cursor, Claude Code & Codex What I Did, What Broke, and How I Fixed It
+# Setting Up Cursor, Claude Code & Codex What I Did, What Broke, and How I Fixed It
 
 This repo documents my completion of Step 1 in the 100Hires portfolio assessment. 
 The task: install Cursor IDE, add the Claude Code and Codex extensions, create a public GitHub repository, and document the full process including the issues I hit along the way.
